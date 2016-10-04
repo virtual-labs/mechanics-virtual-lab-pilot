@@ -1,0 +1,29 @@
+chart {
+	display: block;
+	width: 400px;
+	height: 200px;
+}
+#graphDiv {
+	position: absolute;
+	left: 6%;
+	top: 65.5%;
+	opacity: 0.9;
+	height: 26%;
+	width: 60%;
+}
+ @media only screen and (min-width: 300px) and (max-width: 500px) {
+	#graphDiv {
+		left: 42%;
+		top: 12%;
+		max-height: 39%;
+	}
+}
+ @media only screen and (min-width: 600px) and (max-width: 1024px) {
+	#graphDiv {
+	left: 42%;
+    top: 9%;
+    opacity: 0.9;
+    height: 27%;
+    width: 49%;
+	}
+}

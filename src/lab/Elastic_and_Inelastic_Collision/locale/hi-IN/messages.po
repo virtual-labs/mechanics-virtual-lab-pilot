@@ -1,0 +1,595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2016-04-15 09:23+0530\n"
+"PO-Revision-Date: 2016-04-21 11:25+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: experiment.js:123
+msgid "help1"
+msgstr "प्रकार कॉम्बो बॉक्स का चयन का उपयोग करते हुए टकराव के प्रकार का चयन करें।"
+
+#: experiment.js:123
+msgid "help2"
+msgstr "का उपयोग कर स्लाइडर ' बहाली की coeff ' बहाली के सह eff समायोजित करें।"
+
+#: experiment.js:123
+msgid "help3"
+msgstr ""
+"वेग और ' वस्तु एक ' का उपयोग ' वेग (v1) ' स्लाइडर की बड़े पैमाने पर समायोजित करें और' "
+"मास ( एम 1) ' क्रमशः स्लाइडर।"
+
+#: experiment.js:123
+msgid "help4"
+msgstr ""
+"वेग और ' वेग ( वी 2 )' ' वस्तु बी' का उपयोग कर स्लाइडर की बड़े पैमाने पर समायोजित करें "
+"और' मास ( एम 2) ' क्रमशः स्लाइडर।"
+
+#: experiment.js:123
+msgid "help5"
+msgstr "'प्रयोग आरंभ' बटन पर क्लिक करें प्रयोग शुरू करने के लिए ।"
+
+#: experiment.js:123
+msgid "help6"
+msgstr "ग्राफ टक्कर से पहले और टक्कर के बाद प्राप्त निरीक्षण करें ।"
+
+#: experiment.js:123
+msgid "help7"
+msgstr "K.E , गति और दोनों 'वस्तु एक और वस्तु बी' के वेग के लिए परिणाम निरीक्षण ।"
+
+#: experiment.js:123
+msgid "Next"
+msgstr "अगला"
+
+#: experiment.js:123
+msgid "Close"
+msgstr "बंद करे"
+
+#: experiment.js:125
+msgid "Elastic and Inelastic Collision"
+msgstr "लचीला और स्थिर टकराव"
+
+#: experiment.js:126
+msgid "Variables"
+msgstr "चर"
+
+#: experiment.js:128
+#, fuzzy
+msgid "Select Type"
+msgstr "Select type of test"
+
+#: experiment.js:130
+msgid "Coeff of Restitution(k)"
+msgstr "सह बहाली की कुशल (k)"
+
+#: experiment.js:132 experiment.js:155
+msgid "Object A"
+msgstr "वस्तु एक"
+
+#: experiment.js:134 experiment.js:156
+msgid "Object B"
+msgstr "वस्तु बी"
+
+#: experiment.js:136
+msgid "Velocity(v1)"
+msgstr "वेग (v1)"
+
+#: experiment.js:138
+msgid "Mass(m1)"
+msgstr "मास ( एम 1)"
+
+#: experiment.js:140
+msgid "Velocity(v2)"
+msgstr "वेग (v2)"
+
+#: experiment.js:142
+msgid "Mass(m2)"
+msgstr "मास ( एम 2)"
+
+#: experiment.js:144
+msgid "g"
+msgstr "ग्राम"
+
+#: experiment.js:146 experiment.js:302
+msgid "Start Experiment"
+msgstr "प्रयोग शुरू"
+
+#: experiment.js:148
+msgid "Reset"
+msgstr "रीसेट"
+
+#: experiment.js:150 experiment.js:173 experiment.js:177
+msgid "Elastic"
+msgstr "लोचदार"
+
+#: experiment.js:152
+msgid "Before Collision"
+msgstr "टक्कर से पहले"
+
+#: experiment.js:153
+msgid "After Collision"
+msgstr "टक्कर के बाद"
+
+#: experiment.js:154
+msgid "Select an object"
+msgstr "एक वस्तु का चयन करें"
+
+#: experiment.js:157 experiment.js:160 experiment.js:163 experiment.js:166
+msgid "K.E"
+msgstr "गतिज ऊर्जा"
+
+#: experiment.js:158 experiment.js:161 experiment.js:164 experiment.js:167
+msgid "Velocity"
+msgstr "वेग"
+
+#: experiment.js:159 experiment.js:162 experiment.js:165 experiment.js:168
+msgid "Momentum"
+msgstr "गति"
+
+#: experiment.js:169
+msgid "kg"
+msgstr "किलोग्राम"
+
+#: experiment.js:170
+msgid "m/sec"
+msgstr "मीटर / सेकंड"
+
+#: experiment.js:171
+msgid "Result"
+msgstr "परिणाम"
+
+#: experiment.js:172
+msgid "copyright"
+msgstr "2015 - 2009 कॉपीराइट © अमृता विश्वविद्यालय"
+
+#: experiment.js:174
+msgid "Melting Point"
+msgstr "गलनांक"
+
+#: experiment.js:180
+msgid "InElastic"
+msgstr "अतन्यक"
+
+#: experiment.js:291
+msgid "Pause"
+msgstr "ठहराव"
+
+#: experiment.js:697 experiment.js:726 experiment.js:755
+msgid "Time"
+msgstr "पहर"
+
+#: experiment.js:701
+msgid "P"
+msgstr "गति(P)"
+
+#: experiment.js:730
+msgid "V"
+msgstr "वेग(v)"
+
+#: experiment.js:759
+msgid "KE"
+msgstr "गतिज ऊर्जा(K.E)"
+
+#~ msgid "STOP"
+#~ msgstr "रुकें"
+
+#~ msgid "phase change"
+#~ msgstr "चरण परिवर्तन के अध्ययन"
+
+#~ msgid "Mass of Substance"
+#~ msgstr "मादक द्रव्यों के जनसंचार:"
+
+#~ msgid "Surrounding Temperature"
+#~ msgstr "आसपास के तापमान:"
+
+#~ msgid "Show Result"
+#~ msgstr "परिणाम दिखाओ"
+
+#~ msgid "Transition time"
+#~ msgstr "संक्रमण का समय"
+
+#~ msgid "Naphthalene"
+#~ msgstr "नेफ़थलीन"
+
+#~ msgid "Ice"
+#~ msgstr "बर्फ़"
+
+#~ msgid "Wax"
+#~ msgstr "मोम"
+
+#~ msgid "START"
+#~ msgstr "स्टार्ट"
+
+#~ msgid "time (in min)"
+#~ msgstr " समय (मिनट में )"
+
+#~ msgid "temperature"
+#~ msgstr "तापमान (℃ में )"
+
+#~ msgid "Characteristics of Thermistor"
+#~ msgstr "थर्मिस्टर के लक्षण"
+
+#~ msgid "Choose Thermistor:"
+#~ msgstr "थर्मिस्टर चुनें:"
+
+#~ msgid "Voltage"
+#~ msgstr "वोल्टेज"
+
+#~ msgid "Show Circuit Diagram"
+#~ msgstr "शो सर्किट आरेख"
+
+#~ msgid "Show Graph"
+#~ msgstr "ग्राफ़ दिखाएं"
+
+#~ msgid "Power On"
+#~ msgstr "पावर ऑन"
+
+#~ msgid "Power Off"
+#~ msgstr "बिजली बंद"
+
+#~ msgid "alpha"
+#~ msgstr "अल्फा"
+
+#~ msgid "Thermistor 1"
+#~ msgstr "थर्मिस्टर 1"
+
+#~ msgid "Thermistor 2"
+#~ msgstr "थर्मिस्टर 2"
+
+#~ msgid "Thermistor 3"
+#~ msgstr "थर्मिस्टर 3"
+
+#~ msgid "Thermistor 4"
+#~ msgstr "थर्मिस्टर 4"
+
+#~ msgid "Tangent Galvanometer"
+#~ msgstr "Tangent Galvanometer"
+
+#~ msgid "Number of turns of the coil"
+#~ msgstr "Number of turns of the coil"
+
+#~ msgid "Initial Setup"
+#~ msgstr "Initial Setup"
+
+#~ msgid "Insert Key"
+#~ msgstr "Insert Key"
+
+#~ msgid "Reverse Current"
+#~ msgstr "Reverse Current"
+
+#~ msgid "Radius of the coil "
+#~ msgstr "Radius of the coil "
+
+#~ msgid "Adjust rheostat"
+#~ msgstr "Adjust rheostat"
+
+#~ msgid "Rotate compass box"
+#~ msgstr "Rotate compass box"
+
+#~ msgid "Rotate apparatus"
+#~ msgstr "Rotate apparatus"
+
+#~ msgid "cm"
+#~ msgstr "cm"
+
+#~ msgid "Horizontal Intensity"
+#~ msgstr "Horizontal Intensity"
+
+#~ msgid "Reduction Factor"
+#~ msgstr "Reduction Factor"
+
+#~ msgid "Show Normal"
+#~ msgstr "Show Normal"
+
+#~ msgid "Remove Key"
+#~ msgstr "Remove Key"
+
+#~ msgid "Zoom compass"
+#~ msgstr "Zoom compass"
+
+#~ msgid "Magnetic Field Along The Axis of A Circular Coil Carrying Current"
+#~ msgstr "Magnetic Field Along The Axis of A Circular Coil Carrying Current"
+
+#~ msgid "Initial Adjustment"
+#~ msgstr "Initial Adjustment"
+
+#~ msgid "Compass box position "
+#~ msgstr "Compass box position "
+
+#~ msgid "Magnetic field at x, B(T)"
+#~ msgstr "Magnetic field at x, B(T)"
+
+#~ msgid "Circular Coil"
+#~ msgstr "Circular Coil"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "Temperature (Y axis) Vs Time (X axis)"
+
+#~ msgid "Measurements"
+#~ msgstr "Measurements"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "Thermometer reading:"
+
+#~ msgid "Brass"
+#~ msgstr "Brass"
+
+#~ msgid "Water"
+#~ msgstr "Water"
+
+#~ msgid "Plot Graph"
+#~ msgstr "Plot Graph"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "Newton's Law of Cooling"
+
+#~ msgid "Select material:"
+#~ msgstr "Select material:"
+
+#~ msgid "Select liquid:"
+#~ msgstr "Select liquid:"
+
+#~ msgid "Copper"
+#~ msgstr "Copper"
+
+#~ msgid "Aluminium"
+#~ msgstr "Aluminium"
+
+#~ msgid "Silver"
+#~ msgstr "Silver"
+
+#~ msgid "Milk"
+#~ msgstr "Milk"
+
+#~ msgid "Vegetable oil"
+#~ msgstr "Vegetable oil"
+
+#~ msgid "Olive oil"
+#~ msgstr "Olive oil"
+
+#~ msgid "Start Heating"
+#~ msgstr "Start Heating"
+
+#~ msgid "Stop Heating"
+#~ msgstr "Stop Heating"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "Stop Plotting"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "Thermometer reading:"
+
+#~ msgid "Power on"
+#~ msgstr "Power on"
+
+#~ msgid "Emissivity of the test plate:"
+#~ msgstr "Emissivity of the test plate:"
+
+#~ msgid "Iron"
+#~ msgstr "Iron"
+
+#~ msgid "Steel"
+#~ msgstr "Steel"
+
+#~ msgid "Heat Transfer by Radiation"
+#~ msgstr "Heat Transfer by Radiation"
+
+#~ msgid "Choose material:"
+#~ msgstr "Choose material:"
+
+#~ msgid "Diameter of the plates (cm):"
+#~ msgstr "Diameter of the plates (cm):"
+
+#~ msgid "Thickness of the plates (cm):"
+#~ msgstr "Thickness of the plates (cm):"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "Chamber temperature :"
+
+#~ msgid "Show result"
+#~ msgstr "Show result"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Select Environment"
+#~ msgstr "Select Environment"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "Mass of Object, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+
+#~ msgid ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+#~ msgstr ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the animal:"
+#~ msgstr "Select the animal:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#, fuzzy
+#~ msgid "Lime water"
+#~ msgstr "Lime water"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."

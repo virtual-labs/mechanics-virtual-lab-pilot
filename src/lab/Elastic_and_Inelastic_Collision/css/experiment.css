@@ -1,0 +1,60 @@
+chart {
+	display: block;
+	width: 200px;
+	height: 100px;
+}
+
+#graphDiv {
+	padding: 0% 4% 27% 0%;
+    margin: -79% -2% 0% 1%;
+    display: none;
+}
+
+#graphDiv1{
+	padding: 0% 4% 27% 0%;
+    margin: 0% -2% 0% 1%;
+    display: none;
+}
+#graphDiv2{
+	padding: 0% 4% 27% 0%;
+    margin: -3% -2% 0% 1%;
+    display: none;
+}
+
+#result_heading1{
+	font-size:17px;
+	font-weight:bold;
+}
+
+#object_label{
+	font-size:13px;
+	padding:3% 0% 0% 0%;
+}
+#object_label_rslt{
+	font-size:13px;
+}
+
+#object_label12{
+	padding:0% 0% 0% 0%;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+	border-color: #b3b3b3;
+}
+#result_heading2{
+	font-size:17px;
+	font-weight:bold;
+	margin-top: 12px;
+}
+#result_tab{
+	margin-bottom:10px;
+}
+
+#select_2 {
+    margin: -18% 0% -6% 3% !important;
+}
+

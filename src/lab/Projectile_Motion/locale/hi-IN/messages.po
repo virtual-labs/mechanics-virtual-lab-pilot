@@ -1,0 +1,635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2016-03-17 10:44+0530\n"
+"PO-Revision-Date: 2016-03-17 11:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: experiment.js:126
+msgid "help1"
+msgstr "\" पर्यावरण चुनें\" ड्रॉप डाउन मेनू का चयन करें।"
+
+#: experiment.js:126
+msgid "help2"
+msgstr "वेग ' वेग ' स्लाइडर का उपयोग कर समायोजित करें।"
+
+#: experiment.js:126
+msgid "help3"
+msgstr "कोण ' प्रक्षेपण के कोण ' स्लाइडर का उपयोग कर समायोजित करें।"
+
+#: experiment.js:126
+msgid "help4"
+msgstr "ऊंचाई का उपयोग करते हुए ' तोप ऊंचाई ' स्लाइडर को समायोजित करें।"
+
+#: experiment.js:126
+msgid "help5"
+msgstr "'आग' बटन पर क्लिक करें, गोली फायरिंग के लिए इस्तेमाल किया जाता है।"
+
+#: experiment.js:126
+msgid "help6"
+msgstr "मिटा बटन चाप रेखा मिटा देने के लिए है।"
+
+#: experiment.js:126
+msgid "help7"
+msgstr "चेकबॉक्स 'शो परिणाम' परिणाम पढ़ने देता है।"
+
+#: experiment.js:126
+msgid "Next"
+msgstr "अगला"
+
+#: experiment.js:126
+msgid "Close"
+msgstr "बंद करे"
+
+#: experiment.js:127
+msgid "Projectile Motion"
+msgstr "प्रक्षेप्य गति"
+
+#: experiment.js:128
+msgid "Variables"
+msgstr "चर"
+
+#: experiment.js:129
+msgid "Result"
+msgstr "परिणाम"
+
+#: experiment.js:130
+msgid "copyright"
+msgstr "कॉपीराइट © अमृता विश्वविद्यालय 2015 - 2009"
+
+#: experiment.js:131
+msgid "Choose Environment:"
+msgstr "पर्यावरण चुनें:"
+
+#: experiment.js:132
+msgid "m/s"
+msgstr " मीटर / सेकंड"
+
+#: experiment.js:133
+msgid "m"
+msgstr " मीटर"
+
+#: experiment.js:135
+msgid "s"
+msgstr " सेकंड"
+
+#: experiment.js:136
+msgid "Earth, g=9.8m/s"
+msgstr "पृथ्वी, जी = 9.8 मीटर / सेकंड"
+
+#: experiment.js:137
+msgid "Velocity:"
+msgstr "वेग:"
+
+#: experiment.js:138
+msgid "Angle of Projection:"
+msgstr "प्रक्षेपण के कोण :"
+
+#: experiment.js:139
+msgid "Cannon Height:"
+msgstr "तोप ऊंचाई:"
+
+#: experiment.js:140
+msgid "Fire"
+msgstr "आग"
+
+#: experiment.js:141
+msgid "Erase"
+msgstr "मिटाना"
+
+#: experiment.js:142
+msgid "Show Result"
+msgstr "परिणाम दिखाओ"
+
+#: experiment.js:143
+msgid "Time of Flight, T:"
+msgstr "उड़ान , टी के समय:"
+
+#: experiment.js:144
+msgid "Maximum Height, H:"
+msgstr "अधिकतम ऊँचाई , एच :"
+
+#: experiment.js:145
+msgid "Horizontal Range, R:"
+msgstr "क्षैतिज श्रेणी , आर:"
+
+#: experiment.js:147
+msgid "Earth"
+msgstr "पृथ्वी, जी = 9.8 मीटर / सेकंड"
+
+#: experiment.js:151
+msgid "Moon"
+msgstr "चांद, जी = 1.6 मीटर / सेकंड"
+
+#: experiment.js:155
+msgid "Uranus"
+msgstr "अरुण ग्रह, जी = 10.67 मीटर / सेकंड"
+
+#: experiment.js:159
+msgid "Saturn"
+msgstr "शनि ग्रह, जी = 11.08 मीटर / सेकंड"
+
+#: experiment.js:163
+msgid "Jupiter"
+msgstr "बृहस्पति, जी = 25.95 मीटर / सेकंड"
+
+#~ msgid "Moon, g=1.6m/s"
+#~ msgstr "चंद्रमा, जी = 1.6 मीटर / सेकंड"
+
+#~ msgid "Uranus, g=10.67m/s"
+#~ msgstr "यूरेनस, जी = 10.67 मीटर / सेकंड"
+
+#~ msgid "Saturn, g=11.08m/s"
+#~ msgstr "शनि, जी = 11.08 मीटर / सेकंड"
+
+#~ msgid "Jupiter, g=25.95m/s"
+#~ msgstr "बृहस्पति, जी = 25.95 मीटर / सेकंड"
+
+#~ msgid "help8"
+#~ msgstr "तरंगों को देखने के लिए सीआरओ बटन पर क्लिक करें"
+
+#~ msgid "help9"
+#~ msgstr "प्रयोग रीसेट के लिए रीसेट बटन पर क्लिक करें"
+
+#~ msgid "System on/Off"
+#~ msgstr "उपकरण पर/ बंद"
+
+#~ msgid "Light on/Off"
+#~ msgstr "प्रकाश पर/ बंद"
+
+#~ msgid "Light intensity"
+#~ msgstr "प्रकाश की तीव्रता"
+
+#~ msgid "Left and Right turning"
+#~ msgstr "बाएँ/दाएँ घुमाना"
+
+#~ msgid "Zoom In/Out"
+#~ msgstr "ज़ूम अंदर/बाहर"
+
+#~ msgid "Hemocytometer-Counting of cells"
+#~ msgstr "हिमोसाइटोमेटेर-कोशिकाओं की गिनती"
+
+#~ msgid "Binocular View"
+#~ msgstr "दूरबीन देखें"
+
+#~ msgid "Select Lense"
+#~ msgstr "लेंस चुनना"
+
+#~ msgid "10X"
+#~ msgstr "10X"
+
+#~ msgid "No: of squares counted"
+#~ msgstr "वर्गों की संख्या की गिनती"
+
+#~ msgid "Percentage cell viability"
+#~ msgstr "प्रतिशत सेल व्यवहार्यता"
+
+#~ msgid "Total Cells"
+#~ msgstr "कुल कोशिकाओं"
+
+#~ msgid "% Cell viability"
+#~ msgstr "% सेल व्यवहार्यता"
+
+#~ msgid "Concentration of cells"
+#~ msgstr "कोशिकाओं की एकाग्रता"
+
+#~ msgid "Avg viable cell count/sq"
+#~ msgstr "औसत रूप से व्यवहार्य कोशिकाओं की संख्या / वर्ग"
+
+#~ msgid "Viable Cells/ml"
+#~ msgstr "व्यवहार्य कोशिकाओं / एमएल"
+
+#~ msgid "Original volume of sample"
+#~ msgstr "नमूने के मूल मात्रा"
+
+#~ msgid "  ml"
+#~ msgstr "मिलीलीटर"
+
+#~ msgid "Total viable cells/Sample"
+#~ msgstr "कुल व्यवहार्य कोशिकाओं / नमूना"
+
+#~ msgid "Viable cell count"
+#~ msgstr "व्यवहार्य सेल गिनती"
+
+#~ msgid "Dead cell count"
+#~ msgstr "मृत कोशिकाओं की संख्या"
+
+#~ msgid "Volume of media needed"
+#~ msgstr "मीडिया की मात्रा की जरूरत"
+
+#~ msgid "Number of cells needed"
+#~ msgstr "कोशिकाओं की संख्या की जरूरत"
+
+#~ msgid "square1"
+#~ msgstr "वर्ग1"
+
+#~ msgid "square2"
+#~ msgstr "वर्ग2"
+
+#~ msgid "square3"
+#~ msgstr "वर्ग3"
+
+#~ msgid "square4"
+#~ msgstr "वर्ग5"
+
+#~ msgid "square5"
+#~ msgstr "वर्ग5"
+
+#~ msgid "Total"
+#~ msgstr "कुल"
+
+#~ msgid "40X"
+#~ msgstr "40X"
+
+#~ msgid "100X"
+#~ msgstr "100X"
+
+#~ msgid "Trinocular View"
+#~ msgstr "ट्राइनोकुलर देखें"
+
+#~ msgid "No: of squares counted:"
+#~ msgstr "नहीं: चौकों की गिना :"
+
+#~ msgid "Percentage cell viability:"
+#~ msgstr "प्रतिशत सेल व्यवहार्यता :"
+
+#~ msgid "Concentration of cells:"
+#~ msgstr "कोशिकाओं की एकाग्रता :"
+
+#~ msgid "Volume of media needed:"
+#~ msgstr "मृत कोशिकाओं की संख्या"
+
+#~ msgid "Power On"
+#~ msgstr "पावर ऑन"
+
+#~ msgid "Andersons Bridge"
+#~ msgstr "एंडरसन ब्रिज"
+
+#~ msgid "Signal Generator:"
+#~ msgstr "संकेतक उत्पादक:"
+
+#~ msgid "Voltage:"
+#~ msgstr "वोल्टेज:"
+
+#~ msgid "Frequency:"
+#~ msgstr "आवृत्ति:"
+
+#~ msgid "Inductance coil:"
+#~ msgstr "अधिष्ठापन का तार :"
+
+#~ msgid "Coil Length:"
+#~ msgstr "कुंडल लंबाई :"
+
+#~ msgid "Coil Diameter:"
+#~ msgstr "कुंडल व्यास:"
+
+#~ msgid "Variable resistance:"
+#~ msgstr "चर प्रतिरोध :"
+
+#~ msgid "Reset"
+#~ msgstr "रीसेट"
+
+#~ msgid "Inductance:"
+#~ msgstr "अधिष्ठापन :"
+
+#~ msgid "Inductive Reactance:"
+#~ msgstr "आगमनात्मक मुक़ाबला :"
+
+#~ msgid "Show CRO"
+#~ msgstr "दिखाएँ सीआरओ"
+
+#~ msgid "Wheatsons Bridge"
+#~ msgstr "व्हेअतसोंस ब्रिज"
+
+#~ msgid "Select Resistance"
+#~ msgstr "चुनें प्रतिरोध"
+
+#~ msgid "Fractional"
+#~ msgstr "आंशिक"
+
+#~ msgid "Small"
+#~ msgstr "छोटा"
+
+#~ msgid "Power Off"
+#~ msgstr "बिजली बंद"
+
+#~ msgid "Hide CRO"
+#~ msgstr "सीआरओ छुपाएं"
+
+#~ msgid "Anderson Bridge"
+#~ msgstr "एंडरसन ब्रिज"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "तापमान (वाई अक्ष ) बनाम समय ( एक्स अक्ष)"
+
+#~ msgid "Time (in minutes)"
+#~ msgstr "समय ( मिनट में )"
+
+#~ msgid "Temperature"
+#~ msgstr "तापमान"
+
+#~ msgid "START"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "Start Experiment"
+#~ msgstr "प्रयोग शुरू"
+
+#~ msgid "Measurements"
+#~ msgstr "माप"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "थर्मामीटर पढ़ना:"
+
+#~ msgid "Show Graph"
+#~ msgstr "दिखाएँ ग्राफ"
+
+#~ msgid "Brass"
+#~ msgstr "पीतल"
+
+#~ msgid "Water"
+#~ msgstr "पानी"
+
+#~ msgid "Plot Graph"
+#~ msgstr "प्लॉट ग्राफ़"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "ठंडा करने की न्यूटन का कानून"
+
+#~ msgid "Select material:"
+#~ msgstr "सामग्री का चयन करें :"
+
+#~ msgid "Select liquid:"
+#~ msgstr "चयन करें तरल :"
+
+#~ msgid "Copper"
+#~ msgstr "तांबा"
+
+#~ msgid "Aluminium"
+#~ msgstr "अल्युमीनियम"
+
+#~ msgid "Silver"
+#~ msgstr "चांदी"
+
+#~ msgid "Milk"
+#~ msgstr "दूध"
+
+#~ msgid "Vegetable oil"
+#~ msgstr "वनस्पति तेल"
+
+#~ msgid "Olive oil"
+#~ msgstr "जैतून का तेल"
+
+#~ msgid "Start Heating"
+#~ msgstr "प्रारंभ करें ताप"
+
+#~ msgid "Stop Heating"
+#~ msgstr "बंद करो ताप"
+
+#~ msgid "STOP"
+#~ msgstr "रुकें"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "बंद करो साजिश रचने"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "थर्मामीटर पढ़ना:"
+
+#~ msgid "Iron"
+#~ msgstr "ഇരുമ്പ്"
+
+#~ msgid "Steel"
+#~ msgstr "ഉരുക്ക്"
+
+#~ msgid "Heat Transfer by Radiation"
+#~ msgstr "റേഡിയേഷൻ പ്രകാരം ഹീറ്റ് ട്രാൻസ്ഫർ"
+
+#~ msgid "Power on"
+#~ msgstr "പവർ ഓണ്‍ "
+
+#~ msgid "Choose material:"
+#~ msgstr "മെറ്റീരിയൽ തിരഞ്ഞെടുക്കുക:"
+
+#~ msgid "Diameter of the plates (cm):"
+#~ msgstr "പ്ലേറ്റുകൾ വ്യാസം ( സെ.മീ ) :"
+
+#~ msgid "Thickness of the plates (cm):"
+#~ msgstr "പ്ലേറ്റുകൾ കനം ( സെ.മീ ):"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "ചേംബർ താപനില :"
+
+#~ msgid "Show result"
+#~ msgstr "കാണിക്കുക ഫലം"
+
+#~ msgid "Voltage of both heaters must be same."
+#~ msgstr "ഇരു ഹീറ്റർ എന്ന വോൾട്ടേജ് ഇതേ ആവശ്യം."
+
+#~ msgid "Emissivity of the test plate:"
+#~ msgstr "ടെസ്റ്റ് പ്ലാറ്റ്ഫോമിന്റെ Emissivity:"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Select Environment"
+#~ msgstr "Select Environment"
+
+#~ msgid "Select type of test"
+#~ msgstr "Select type of test"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "Mass of Object, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+
+#~ msgid ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+#~ msgstr ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the animal:"
+#~ msgstr "Select the animal:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#, fuzzy
+#~ msgid "Lime water"
+#~ msgstr "Lime water"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."

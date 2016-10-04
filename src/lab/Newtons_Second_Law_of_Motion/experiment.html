@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel='stylesheet' href='../template/assets/css/fonts.googleapis.css'>
+<link rel="stylesheet" href="../template/bower_components/angular-material/angular-material.css" />
+<link rel="stylesheet" href="../template/assets/css/app.css" />
+<link rel="stylesheet" href="css/experiment.css" />
+<script src="../template/js/createjs-2015.05.21.min.js"></script>
+<script src="../template/js/canvasjs.min.js"></script>
+<script src="../template/bower_components/angular/angular.min.js"></script>
+<script src="../template/bower_components/angular-animate/angular-animate.js"></script>
+<script src="../template/bower_components/angular-aria/angular-aria.js"></script>
+<script src="../template/bower_components/angular-fullscreen/angular-fullscreen.js"></script>
+<script src="../template/js/Gettext.js"></script>
+<script type="text/javascript" src="../template/bower_components/angular-material/angular-material.js"></script>
+<script src="../template/js/getlanguage.js"></script>
+<script src="./src/user_controller.js"></script>
+<script src="./src/view.js"></script>
+<script src="./src/experiment.js"></script>
+<script src="../template/js/delaytimer.js"></script>
+<script type="text/javascript">
+angular
+.module('starterApp', ['ngMaterial','users'])
+.config(function($mdThemingProvider, $mdIconProvider){
+    $mdIconProvider
+        .icon("menu"       , "../template/assets/svg/menu.svg"        , 24)
+        .icon("fullscreen"       , "../template/assets/icons/Icon3.svg", 24)
+        .icon("help"      , "../template/assets/icons/Icon2.svg", 24);
+        $mdThemingProvider.theme('default')
+        .primaryPalette('blue')
+        .accentPalette('red');
+});
+</script>
+</head>
+
+<body style="background-color: #f2f2f2;" ng-app="starterApp" ng-controller="UserController as ul">
+<md-toolbar class="md-toolbar-tools" id="main">
+	<md-button class="md-icon-button" hide-gt-md ng-click="ul.toggleList()" aria-label="Show User List">
+		<md-icon md-svg-icon="menu" ></md-icon>
+	</md-button>
+    <!-- //Experiment title gives here//   -->
+	<h1 flex="" layout="row" class="expTitle" id="expTitle">{{heading}}</h1>
+	<md-button class="md-icon-button" aria-label="help" ng-click="showActionToast()">
+		<md-icon md-svg-icon="help"></md-icon>
+	</md-button>
+	<md-button class="md-icon-button" aria-label="fullscreen" ng-click="goFullscreen()">
+		<md-icon md-svg-icon="fullscreen"></md-icon>
+	</md-button>
+</md-toolbar>
+<md-content flex layout="row" style="background-color: #f2f2f2;">
+	<md-content  id="content" layout-sm="column"  style="background-color: #f2f2f2; overflow:hidden" md-swipe-right="toggleSidenav()">        
+	
+	<canvas id="demoCanvas" width="700" height="700" align="center" layout-fill experiment></canvas>
+	<!--ng-hide="graph_show"-->
+	
+	<md-content  id="graphDiv"> 
+	</md-content></div>
+    <div id="Copyright">{{copyright}}</div>    
+		</md-content>
+		<md-sidenav class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')" md-swipe-left="toggleSidenav()">
+    <div>  
+		<md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()">{{variables}} <span aria-hidden="true">
+		<md-icon md-svg-src="md-toggle-arrow"  aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive1]" ></md-icon>
+		</span> </md-button>
+		<!-- ////////////   -->
+		<div ng-hide="showVariables" class="div">
+			<!-- Insert slider1 label -->
+			<md-content class="md-title selectable" ng-model="frictionChange" layout-padding id="frictionChange">{{change_friction}}: {{friction}}  </md-content>
+			<!-- Insert slider1 -->
+			<div layout>      
+				<md-slider flex md-discrete ng-disabled="slider_disable" ng-model="friction" step="0.001" min="0.001" max="0.005" aria-label="rating" ng-change="changeFrictionSlider();"></md-slider>        
+			</div>
+			<!-- Insert slider2 label -->
+				<md-content class="md-title selectable" ng-model="hangingWeight" layout-padding id="hangingWeight">{{hanging_weight}}: {{weight}} {{gm_label}}</md-content>
+			<!-- Insert slider2 -->
+			<div layout>      
+				<md-slider flex md-discrete ng-disabled="slider_disable" ng-model="weight" step="1" min="1" max="50" aria-label="rating" ng-change="hangingWeightSlider();"></md-slider>        
+			</div>
+            <!-- Insert slider3 label -->
+			<md-content class="md-title selectable" ng-model="cartWeight" layout-padding id="cartWeight">{{cart_weight}}: {{weight1}} {{gm_label}} </md-content>
+			<!-- Insert slider3 -->
+			<div layout>      
+				<md-slider flex md-discrete ng-disabled="slider_disable" ng-model="weight1" step="10" min="10" max="100" aria-label="rating" ng-change="cartWeightSlider();"></md-slider>        
+			</div>
+			<!-- Insert slider4 label -->
+			<md-content class="md-title selectable" ng-model="pointerPos" layout-padding id="pointerPos">{{pointer_position}}: {{point_position}} {{cm_label}}  </md-content>
+			<!-- Insert slider4 -->
+			<div layout>      
+				<md-slider flex md-discrete ng-disabled="slider_disable" ng-model="point_position" step="1" min="0" max="100" aria-label="rating" ng-change="pointerPositionSlider();"></md-slider>        
+			</div>
+			<!--  Start button   -->
+			<section layout="row" layout-align="center center">
+				<md-button class="md-raised" ng-disabled="startbtn_disable" id="reset" ng-click="startFn();">
+					{{start_label}}
+				</md-button>
+			</section>	
+			<!--  Reset button   -->
+			<section layout="row" layout-align="center center">
+				<md-button class="md-raised" id="reset" ng-click="resetFn();">
+					{{reset_label}}
+				</md-button>
+			</section>
+			<!-- Insert checkbox2 -->
+			<md-checkbox ng-disabled="result_disable" class="md-title" ng-model="resultValue" aria-label="Checkbox 1" id="showResult" ng-change="showResult();">{{show_result}}</md-checkbox>      
+		</div>
+		<!-- ////////////   -->
+        <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle()">{{result}} <span aria-hidden="true">
+        <md-icon md-svg-src="md-toggle-arrow"   aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive]" ></md-icon>
+        </span> </md-button>
+        
+         <!-- //inset result label ng-show="hide_show_result"ng-show="hide_show_result"//   -->
+        <div ng-hide="hide_show_result" class="div">          
+            <md-content class="md-title selectable" layout-padding id="distanceLbl">{{time_pointer_label}} : 
+				{{pointer_time}} {{sec_label}}
+			</md-content>
+            <md-content class="md-title selectable" layout-padding id="distanceLbl">{{pointer_distance_label}} : 
+				{{pointer_distance}} {{cm_label}}
+			</md-content>
+			<md-content class="md-title selectable" layout-padding id="distanceLbl">{{accelaration_label}} : 
+				{{accelaration}} {{ms_label}}
+			</md-content>
+		</div>
+    </div>
+	
+</md-sidenav>
+</md-content>
+</body>
+<script src="../template/js/loading.js"></script>
+</html>

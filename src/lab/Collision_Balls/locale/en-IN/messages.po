@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: d\n"
-"POT-Creation-Date: 2016-03-17 11:16+0530\n"
-"PO-Revision-Date: 2016-03-17 12:09+0530\n"
+"POT-Creation-Date: 2016-12-16 11:09+0530\n"
+"PO-Revision-Date: 2016-12-16 16:26+0530\n"
 "Last-Translator: \n"
 "Language-Team: d\n"
 "Language: hi\n"
@@ -15,232 +15,278 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: experiment.js:126
+#: user_controller.js:167
+msgid "Play Animation"
+msgstr "Play Animation"
+
+#: user_controller.js:167 view.js:175
+msgid "Pause Animation"
+msgstr "Pause Animation"
+
+#: view.js:164
 msgid "help1"
-msgstr "\" ഡ്രോപ്പ് ഡൗൺ മെനു\" നിന്നും തെരഞ്ഞെടുക്കുക"
+msgstr ""
+"Adjust the Coefficient of restitution from the slider 'Coeff: of "
+"restitution'."
 
-#: experiment.js:126
+#: view.js:164
 msgid "help2"
-msgstr "'പ്രവേഗം ' സ്ലൈഡർ ഉപയോഗിച്ച് പ്രവേഗം  ക്രമീകരിക്കുക ."
+msgstr "Adjust the Mass of the object A using the slider"
 
-#: experiment.js:126
+#: view.js:164
 msgid "help3"
-msgstr "' ആംഗിൾ പ്രൊജക്ഷൻ എന്ന ' സ്ലൈഡർ ഉപയോഗിച്ച് കോൺ ക്രമീകരിക്കുക ."
+msgstr "Adjust the Mass of the object B using the slider"
 
-#: experiment.js:126
+#: view.js:164
 msgid "help4"
-msgstr "' കാനോൺ ഉയരം ' സ്ലൈഡർ ഉപയോഗിച്ച് ഉയരവും ക്രമീകരിക്കുക."
+msgstr ""
+"Click and drag from the center of the ball to draw the direction for each. "
+"Click on the Start button to start the Animation"
 
-#: experiment.js:126
+#: view.js:164
 msgid "help5"
-msgstr "' ഫയർ ' ബട്ടൺ ക്ലിക്ക് ബുള്ളറ്റ് ഫയറിംഗ് ഉപയോഗിക്കുന്നു."
+msgstr "Click on the 'Pause Animation' button to pause the animation"
 
-#: experiment.js:126
+#: view.js:164
 msgid "help6"
-msgstr "'തുടച്ചുമാറ്റുക ബട്ടൺ' ആർക്ക് ലൈൻ മായ്ക്കുന്ന വേണ്ടി ഉപയോഗിക്കുന്നു."
+msgstr "Click on the Checkbox to see the center of two objects"
 
-#: experiment.js:126
+#: view.js:164
 msgid "help7"
-msgstr "ചെക്കുബോക്സ് ' കാണിക്കുക ഫലം ' ഫലം കണ്ടെത്തുന്നതിനായി ആണ്."
+msgstr "The result will be display on the 'Result' tab"
 
-#: experiment.js:126
+#: view.js:164
 msgid "Next"
-msgstr "അടുത്തത്"
+msgstr "Next"
 
-#: experiment.js:126
+#: view.js:164
 msgid "Close"
-msgstr "അടയ്കുക "
+msgstr "Close"
 
-#: experiment.js:127
-msgid "Projectile Motion"
-msgstr "പ്രക്ഷേപിത ചലനം"
+#: view.js:165
+msgid "Collision Balls"
+msgstr "Collision Balls"
 
-#: experiment.js:128
+#: view.js:166
 msgid "Variables"
-msgstr "പട്ടിക"
+msgstr "Variables"
 
-#: experiment.js:129
+#: view.js:167
 msgid "Result"
-msgstr "ഫലം"
+msgstr "Result"
 
-#: experiment.js:130
+#: view.js:168
 msgid "copyright"
-msgstr "പകർപ്പവകാശം © അമൃത യൂണിവേഴ്സിറ്റി 2009 - 2015"
+msgstr "Copyright © Amrita University 2009 - 2015"
 
-#: experiment.js:131
-msgid "Choose Environment:"
-msgstr "പരിസ്ഥിതി തിരഞ്ഞെടുക്കുക:"
+#: view.js:169
+msgid "Coeff of Restitution:"
+msgstr "Coeff of Restitution:"
 
-#: experiment.js:132
-msgid "m/s"
-msgstr " മീറ്റർ / സെക്കന്റ്"
+#: view.js:170
+msgid "kg"
+msgstr "kg"
 
-#: experiment.js:133
-msgid "m"
-msgstr " മീറ്റർ"
+#: view.js:172
+msgid "Mass of Object A:"
+msgstr "Mass of Object, m(g): "
 
-#: experiment.js:135
-msgid "s"
-msgstr " സെക്കന്റ്"
+#: view.js:173
+msgid "Mass of Object B:"
+msgstr "Mass of Object, m(g): "
 
-#: experiment.js:136
-msgid "Earth, g=9.8m/s"
-msgstr "ഭൂമി ,  ഗ്രാം = 9.8 മീറ്റർ / സെക്കന്റ്"
+#: view.js:174
+msgid "Show Centre of Mass"
+msgstr "Show Centre of Mass"
 
-#: experiment.js:137
-msgid "Velocity:"
-msgstr "പ്രവേഗം :"
+#: view.js:176
+msgid "Reset"
+msgstr "Reset"
 
-#: experiment.js:138
-msgid "Angle of Projection:"
-msgstr "പ്രക്ഷേപിത കോൺ :"
+#: view.js:178
+msgid "Start"
+msgstr "Start"
 
-#: experiment.js:139
-msgid "Cannon Height:"
-msgstr "പീരങ്കി ഉയരം:"
+#: view.js:180
+msgid "Object A"
+msgstr "Object A"
 
-#: experiment.js:140
-msgid "Fire"
-msgstr "വെടി വയ്‌ക്കുക"
+#: view.js:181
+msgid "Velocity, v"
+msgstr "Velocity, v"
 
-#: experiment.js:141
-msgid "Erase"
-msgstr "മായ്ച്ചുകളയുക"
+#: view.js:182
+msgid "kineticEnergy, KE:"
+msgstr "KineticEnergy, KE"
 
-#: experiment.js:142
-msgid "Show Result"
-msgstr "ഫലം കാണിക്കുക"
+#: view.js:183
+msgid "Object B"
+msgstr "Object B"
 
-#: experiment.js:143
-msgid "Time of Flight, T:"
-msgstr "സമയം വിമാന , T :"
+#~ msgid "Time"
+#~ msgstr "Time"
 
-#: experiment.js:144
-msgid "Maximum Height, H:"
-msgstr "പരമാവധി ഉയരം , H :"
+#~ msgid "KE"
+#~ msgstr "KE"
 
-#: experiment.js:145
-msgid "Horizontal Range, R:"
-msgstr "തിരശ്ചീന റേഞ്ച്, H :"
+#~ msgid "Projectile Motion"
+#~ msgstr "Projectile Motion"
 
-#: experiment.js:147
-msgid "Earth"
-msgstr "ഭൂമി ,  g = 9.8 മീറ്റർ / സെക്കന്റ്"
+#~ msgid "Choose Environment:"
+#~ msgstr "Choose Environment:"
 
-#: experiment.js:151
-msgid "Moon"
-msgstr "ചന്ദ്രൻ , g = 1.6 മീറ്റർ / സെക്കന്റ്\""
+#~ msgid "m/s"
+#~ msgstr " m/s"
 
-#: experiment.js:155
-msgid "Uranus"
-msgstr "യുറാനസ് ,  g = 10.67 മീറ്റർ / സെക്കന്റ്"
+#~ msgid "m"
+#~ msgstr " m"
 
-#: experiment.js:159
-msgid "Saturn"
-msgstr "ശനി, g = 11.08 മീറ്റർ / സെക്കന്റ്"
+#~ msgid "s"
+#~ msgstr " s"
 
-#: experiment.js:163
-msgid "Jupiter"
-msgstr "വ്യാഴം, ഗ്രാം = 25,95 മീറ്റർ / സെക്കന്റ്"
+#~ msgid "Earth, g=9.8m/s"
+#~ msgstr "Earth, g=9.8m/s"
+
+#~ msgid "Angle of Projection:"
+#~ msgstr "Angle of Projection:"
+
+#~ msgid "Cannon Height:"
+#~ msgstr "Cannon Height:"
+
+#~ msgid "Fire"
+#~ msgstr "Fire"
+
+#~ msgid "Erase"
+#~ msgstr "Erase"
+
+#~ msgid "Show Result"
+#~ msgstr "Show Result"
+
+#~ msgid "Time of Flight, T:"
+#~ msgstr "Time of Flight, T:"
+
+#~ msgid "Maximum Height, H:"
+#~ msgstr "Maximum Height, H:"
+
+#~ msgid "Horizontal Range, R:"
+#~ msgstr "Horizontal Range, R:"
+
+#~ msgid "Earth"
+#~ msgstr "Earth, g=9.8m/s"
+
+#~ msgid "Moon"
+#~ msgstr "Moon, g=1.6m/s"
+
+#~ msgid "Uranus"
+#~ msgstr "Uranus, g=10.67m/s"
+
+#~ msgid "Saturn"
+#~ msgstr "Saturn, g=11.08m/s"
+
+#~ msgid "Jupiter"
+#~ msgstr "Jupiter, g=25.95m/s"
 
 #~ msgid "Moon, g=1.6m/s"
-#~ msgstr "ചന്ദ്രൻ , ഗ്രാം = 1.6 മീറ്റർ / സെക്കന്റ്"
+#~ msgstr "Moon, g=1.6m/s"
 
 #~ msgid "Uranus, g=10.67m/s"
-#~ msgstr "യുറാനസ് ,  ഗ്രാം = 10.67 മീറ്റർ / സെക്കന്റ്"
+#~ msgstr "Uranus, g=10.67m/s"
 
 #~ msgid "Saturn, g=11.08m/s"
-#~ msgstr "ശനി, ഗ്രാം = 11.08 മീറ്റർ / സെക്കന്റ്"
+#~ msgstr "Saturn, g=11.08m/s"
 
 #~ msgid "Jupiter, g=25.95m/s"
-#~ msgstr "വ്യാഴം, ഗ്രാം = 25.95 മീറ്റർ / സെക്കന്റ്"
+#~ msgstr "Jupiter, g=25.95m/s"
+
+#~ msgid "gm"
+#~ msgstr " gm"
 
 #~ msgid "System on/Off"
-#~ msgstr "സിസ്റ്റം ഓൺ/ഓഫ്"
+#~ msgstr "System On/Off"
 
 #~ msgid "Light on/Off"
-#~ msgstr "വെളിച്ചം ഓൺ/ഓഫ്"
+#~ msgstr "Light On/Off"
 
 #~ msgid "Light intensity"
-#~ msgstr "വെളിച്ചം തീവ്രത"
+#~ msgstr "Light intensity"
 
 #~ msgid "Left and Right turning"
-#~ msgstr "ഇടത്/വലത് തിരികുക"
+#~ msgstr "Left and Right turning"
 
 #~ msgid "Zoom In/Out"
-#~ msgstr "വലുത്/ചെറുത്‌ "
+#~ msgstr "Zoom In/Out"
 
 #~ msgid "Hemocytometer-Counting of cells"
-#~ msgstr "ഹീമോസിറൊമീട്ടർ - കോശം എണ്ണൽ"
+#~ msgstr "Hemocytometer-Counting of cells"
 
 #~ msgid "Binocular View"
-#~ msgstr "ബിനോകുലർ  കാഴ്ച"
+#~ msgstr "Binocular View"
 
 #~ msgid "Select Lense"
-#~ msgstr "ലെന്സ് തെരഞ്ഞെടുക്കുക"
+#~ msgstr "Select Lens"
 
 #~ msgid "10X"
 #~ msgstr "10X"
 
 #~ msgid "No: of squares counted"
-#~ msgstr "എണ്ണിയിരിക്കുന്നു ചതുരങ്ങൾ എണ്ണം"
+#~ msgstr "No: of squares counted"
 
 #~ msgid "Percentage cell viability"
-#~ msgstr "ശതമാന സെൽ എമ്പ്ലോയ്മെന്റ്"
+#~ msgstr "Percentage cell viability"
 
 #~ msgid "Total Cells"
-#~ msgstr "കോശങ്ങളുടെ എണ്ണം"
+#~ msgstr "Total Cells"
 
 #~ msgid "% Cell viability"
-#~ msgstr "% കോശം എമ്പ്ലോയ്മെന്റ്"
+#~ msgstr "% Cell viability"
 
 #~ msgid "Concentration of cells"
-#~ msgstr "കോശങ്ങൾ കേന്ദ്രീകരണം"
+#~ msgstr "Concentration of cells"
 
 #~ msgid "Avg viable cell count/sq"
-#~ msgstr "ശരാശരി ബാധിക്കാവുന്ന കോശം/ചതുരശ്ര"
+#~ msgstr "Avg viable cell count/sq"
 
 #~ msgid "Viable Cells/ml"
-#~ msgstr "ബാധിക്കാവുന്ന കോശങ്ങൾ/മില്ലി"
+#~ msgstr "Viable Cells/ml"
 
 #~ msgid "Original volume of sample"
-#~ msgstr "യഥാർത്ഥ സാമ്പിളിന്റെ വോള്യം"
+#~ msgstr "Original volume of sample"
 
 #~ msgid "  ml"
-#~ msgstr "മില്ലി"
+#~ msgstr "  ml"
 
 #~ msgid "Total viable cells/Sample"
-#~ msgstr "ആകെ ബാധിക്കാവുന്ന സെല്ലുകൾ / സാമ്പിൾ"
+#~ msgstr "Total viable cells/Sample"
 
 #~ msgid "Viable cell count"
-#~ msgstr "ബാധിക്കാവുന്ന കോശങ്ങളുടെ എണ്ണം"
+#~ msgstr "Viable cell count"
 
 #~ msgid "Dead cell count"
-#~ msgstr "ചത്ത കോശങ്ങളുടെ എണ്ണം"
+#~ msgstr "Dead cell count"
 
 #~ msgid "Volume of media needed"
-#~ msgstr "ആവശ്യമുള്ള  മീഡിയ വോള്യം :"
+#~ msgstr "Volume of media needed"
 
 #~ msgid "Number of cells needed"
-#~ msgstr "ആവശ്യമുള്ള കോശങ്ങളുടെ എണ്ണം"
+#~ msgstr "Number of cells needed"
 
 #~ msgid "square1"
-#~ msgstr "സമചതുരം1"
+#~ msgstr "Square1"
 
 #~ msgid "square2"
-#~ msgstr "സമചതുരം2"
+#~ msgstr "Square2"
 
 #~ msgid "square3"
-#~ msgstr "സമചതുരം3"
+#~ msgstr "Square3"
 
 #~ msgid "square4"
-#~ msgstr "സമചതുരം4"
+#~ msgstr "Square4"
 
 #~ msgid "square5"
-#~ msgstr "സമചതുരം5"
+#~ msgstr "Square5"
 
 #~ msgid "Total"
-#~ msgstr "മൊത്തം"
+#~ msgstr "Total"
 
 #~ msgid "40X"
 #~ msgstr "40X"
@@ -249,19 +295,19 @@ msgstr "വ്യാഴം, ഗ്രാം = 25,95 മീറ്റർ / സെ�
 #~ msgstr "100X"
 
 #~ msgid "Trinocular View"
-#~ msgstr "ട്ര്യനോക്കുലർ കാഴ്ച"
+#~ msgstr "Trinocular View"
 
 #~ msgid "No: of squares counted:"
-#~ msgstr "ചതുരങ്ങളുടെ എണ്ണം"
+#~ msgstr "No: of squares counted"
 
 #~ msgid "Percentage cell viability:"
-#~ msgstr "കോശം എമ്പ്ലോയ്മെന്റ് ശരാഷരീ:"
+#~ msgstr "Percentage cell viability"
 
 #~ msgid "Concentration of cells:"
-#~ msgstr "കൊശങ്ങളുടെ ഏകാഗത"
+#~ msgstr "Concentration of cells"
 
 #~ msgid "Volume of media needed:"
-#~ msgstr "ആവശ്യമുള്ള മീഡിയ വോള്യം :"
+#~ msgstr "Volume of media needed"
 
 #~ msgid "Magnetic Field Along The Axis of A Circular Coil Carrying Current"
 #~ msgstr "Magnetic Field Along The Axis of A Circular Coil Carrying Current"
@@ -295,9 +341,6 @@ msgstr "വ്യാഴം, ഗ്രാം = 25,95 മീറ്റർ / സെ�
 
 #~ msgid "cm"
 #~ msgstr "cm"
-
-#~ msgid "Reset"
-#~ msgstr "Reset"
 
 #~ msgid "Magnetic field at x, B(T)"
 #~ msgstr "Magnetic field at x, B(T)"
@@ -434,9 +477,6 @@ msgstr "വ്യാഴം, ഗ്രാം = 25,95 മീറ്റർ / സെ�
 #~ msgid "Gravitational Mass (in g):"
 #~ msgstr "Gravitational Mass (in g):"
 
-#~ msgid "Mass of Object, m(g):"
-#~ msgstr "Mass of Object, m(g):"
-
 #~ msgid "Volume (in ml):"
 #~ msgstr "Volume (in ml):"
 
@@ -544,9 +584,6 @@ msgstr "വ്യാഴം, ഗ്രാം = 25,95 മീറ്റർ / സെ�
 #, fuzzy
 #~ msgid "Role of Carbon Dioxide During Respiration"
 #~ msgstr "Role of Carbon Dioxide During Respiration"
-
-#~ msgid "Start"
-#~ msgstr "Start"
 
 #, fuzzy
 #~ msgid "Number of grasshoppers:"

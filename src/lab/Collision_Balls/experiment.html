@@ -25,7 +25,7 @@
 <script src="./src/user_controller.js"></script>
 <script src="./src/view.js"></script>
 <script src="./src/experiment.js"></script>
-<script src="../template/js/delaytimer.js"></script>
+<script src="../template/js/delayTimer.js"></script>
 <script type="text/javascript">
     angular
     .module('starterApp', ['ngMaterial','users'])
@@ -61,9 +61,11 @@
         <md-button ng-show="hide_show_zoom" class="md-raised" id="showNormal" ng-click="zoomCompassBtn();" >{{show_zoom}}</md-button>
     </section>
     <canvas id="demoCanvas" width="700" height="700" align="center" layout-fill experiment></canvas>
+	 <md-content  id="graphDiv"> 
+     </md-content>
     <div id="Copyright">{{copyright}}</div>    
     </md-content>
-    <md-sidenav class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')" md-swipe-left="toggleSidenav()">
+    <md-sidenav ng-show="show_menu" class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')" md-swipe-left="toggleSidenav()">
     <div>  
     <md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()">{{variables}} <span aria-hidden="true">
     <md-icon md-svg-src="md-toggle-arrow"  aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive1]" ></md-icon>
@@ -71,46 +73,42 @@
       
     <!-- ////////////   -->
     <div ng-hide="showVariables" class="div">
-        <!-- Insert dropdown label -->
-        <md-content id="selectEnviornment" class="md-title selectable" layout-padding>{{choose_enviornment}}</md-content>
-        <!-- Insert dropdown box -->
-        <md-select ng-disabled="control_disable" placeholder="{{earth}}" ng-model="Enviornment" ng-change="changeEnviornment();">
-            <md-option ng-repeat="x in enviornment_array" value="{{ x.type }}">{{ x.enviornment }}<sup>2</sup></md-option>
-        </md-select>
-
-        <!-- Insert slider label for velocity -->
-        <md-content class="md-title selectable" layout-padding id="velocityLbl">{{velocity_lbl}} {{velocity}}{{mpers}}</md-content>
+        <!-- Insert slider label for coeff of restitution -->
+        <md-content class="md-title selectable" layout-padding id="restitution">{{restitution_lbl}} {{coeff_restitution}}</md-content>
         <!-- Insert slider for velocity -->
         <div layout>      
-            <md-slider flex md-discrete ng-disabled="control_disable" ng-model="velocity" step="1" min="35" max="45" aria-label="rating" ng-change="velocityFn();"></md-slider>        
+            <md-slider flex md-discrete ng-disabled="control_disable" ng-model="coeff_restitution" step="0.1" min="0.1" max="1" aria-label="rating" ng-change="coffRestitution();"></md-slider>        
         </div>
 
-        <!-- Insert slider label for angle of projection -->
-        <md-content class="md-title selectable" layout-padding id="angleProjectionLbl">{{angle_of_projection_lbl}} {{angle_of_projection}} &deg</md-content>
+        <!-- Insert slider label for mass of object a -->
+        <md-content class="md-title selectable" layout-padding id="massOfObjectA">{{mass_of_objA_lbl}} {{mass_of_a}} {{kg}}</md-content>
         <!-- Insert slider for angle of projection -->
         <div layout>      
-            <md-slider flex md-discrete ng-disabled="control_disable" ng-model="angle_of_projection" step="1" min="10" max="90" aria-label="rating" ng-change="angleOfProjection();"></md-slider>        
+            <md-slider flex md-discrete ng-disabled="control_disable" ng-model="mass_of_a" step="1" min="1" max="10" aria-label="rating" ng-change="massOfObjA();"></md-slider>        
         </div>
 
-        <!-- Insert slider label for cannon height -->
-        <md-content class="md-title selectable" layout-padding id="cannonHeightLbl">{{cannon_height_lbl}} {{cannon_height}}{{m}}</md-content>
+        <!-- Insert slider label for mass of object b -->
+        <md-content class="md-title selectable" layout-padding id="massOfObjectB">{{mass_of_objB_lbl}} {{mass_of_b}} {{kg}}</md-content>
         <!-- Insert slider for cannon height -->
         <div layout>      
-            <md-slider flex md-discrete ng-disabled="control_disable" ng-model="cannon_height" step="1" min="0" max="40" aria-label="rating" ng-change="cannonHeight();"></md-slider>        
+            <md-slider flex md-discrete ng-disabled="control_disable" ng-model="mass_of_b" step="1" min="1" max="10" aria-label="rating" ng-change="massOfObjB();"></md-slider>        
         </div>
 
-        <!-- Fire button -->
-        <section layout="row" layout-align="center center">
-            <md-button class="md-raised" ng-disabled="fire_disable" ng-model="fire" id="fire" ng-click="fireFn();" >{{fire_txt}}</md-button>
-        </section>
-
-        <!-- Erase button -->
-        <section layout="row" layout-align="center center">
-            <md-button class="md-raised" ng-disabled="erase_disable" ng-model="erase" id="erase" ng-click="eraseFn();" >{{erase_txt}}</md-button>
-        </section>
-
         <!-- Insert checkbox -->
-        <md-checkbox class="md-title selectable" ng-model="resultValue" aria-label="Checkbox 1" id="showResult" ng-change="showResult();">{{show_result}}</md-checkbox>
+        <md-checkbox class="md-title selectable" ng-model="centreMass" aria-label="Checkbox 1" id="showCentreMass" ng-change="showCenter();">{{show_centre_mass}}</md-checkbox>
+
+        <!-- Pause animation button -->
+        <section layout="row" layout-align="center center">
+            <md-button class="md-raised" ng-disabled="pause_disable" ng-model="animPause" id="pauseAnim" ng-click="pauseFn();" >{{pause_animation}}</md-button>
+        </section>
+
+        <!-- Start button -->
+        <section layout="row" layout-align="center center">
+            <md-button class="md-raised" ng-disabled="control_disable" ng-model="start" id="start" ng-click="start();" >{{start_animation}}</md-button>
+        </section>     
+		<section layout="row" layout-align="center center">
+            <md-button class="md-raised" ng-model="reset" id="reset" ng-click="resetFn();" >{{reset_experiment}}</md-button>
+        </section>       
 
         </div>
 
@@ -123,9 +121,14 @@
 
         <!-- //inset result label //   -->       
         <div ng-hide="showValue" class="div">
-            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="timeOfFlightLabel" layout-padding id="timeLabel">{{time_of_flight_lbl}} {{time_of_flight}}</md-content>
-            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="maxHeightLabel" layout-padding id="heightLabel">{{max_height_lbl}} {{max_height}}</md-content>
-            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="rangeLabel" layout-padding id="rangeLabel">{{hor_range_lbl}} {{horizontal_range}}</md-content>
+            <md-content ng-show="hide_show_result" class="md-title selectable"  layout-padding id="timeLabel">{{objectA}}</md-content>
+            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="velocityA" layout-padding id="velocityA">{{Velocity}} : {{velocity_a}} m/sec</md-content>
+            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="keA" layout-padding id="keA">{{kineticEnergy}} : {{ke_ball_a}} J</md-content>
+			
+			 <md-content ng-show="hide_show_result" class="md-title selectable"  layout-padding id="timeLabel">{{objectB}}</md-content>
+            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="maxHeightLabel" layout-padding id="heightLabel">{{Velocity}} : {{velocity_b}} m/sec</md-content>
+            <md-content ng-show="hide_show_result" class="md-title selectable" ng-model="rangeLabel" layout-padding id="rangeLabel">{{kineticEnergy}} : {{ke_ball_b}} J</md-content>
+       
         </div>
     </div>
     </div>

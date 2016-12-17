@@ -126,6 +126,7 @@ function directiveFunction() {
 			/** Add all the strings used for the language translation here. '_' is the short cut for calling the gettext 
 			function defined in the gettext-definition.js */
 			function translationLabels() {
+				scope.show_menu = true;
 				/** Labels used in the experiment initialize here */
 				/** This help array shows the hints for this experiment */
 				help_array = [_("help1"), _("help2"), _("help3"), _("help4"), _("help5"),_("help6"),_("help7"),_("Next"), _("Close")];
